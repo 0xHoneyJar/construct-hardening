@@ -155,7 +155,7 @@ Data Flow:
 Emit event:
 ```bash
 source .claude/scripts/lib/event-bus.sh
-emit_event "hardening.blast_radius_mapped" \
+emit_event "forge.hardening.blast_radius_mapped" \
   '{
     "scope": "{input}",
     "affected_file_count": {N},

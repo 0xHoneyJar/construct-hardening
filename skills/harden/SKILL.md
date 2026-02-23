@@ -177,7 +177,7 @@ Use Edit to update the PMR file in place.
 Emit event for each action:
 ```bash
 source .claude/scripts/lib/event-bus.sh
-emit_event "hardening.action_proposed" \
+emit_event "forge.hardening.action_proposed" \
   '{
     "action_id": "{action_id}",
     "pmr_id": "{pmr_id}",

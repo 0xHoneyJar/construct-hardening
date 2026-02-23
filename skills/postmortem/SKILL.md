@@ -156,7 +156,7 @@ Where `{NNN}` is the next sequential number (check existing PMRs in directory).
 Emit event:
 ```bash
 source .claude/scripts/lib/event-bus.sh
-emit_event "hardening.pmr_created" \
+emit_event "forge.hardening.pmr_created" \
   '{
     "pmr_id": "PMR-{YYYY}-{NNN}",
     "title": "{title}",

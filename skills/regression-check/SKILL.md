@@ -168,7 +168,7 @@ Update the PMR's **Regression Checks** table:
 For `regressed` findings, emit event:
 ```bash
 source .claude/scripts/lib/event-bus.sh
-emit_event "hardening.regression_detected" \
+emit_event "forge.hardening.regression_detected" \
   '{
     "action_id": "{action_id}",
     "pmr_id": "{pmr_id}",
@@ -181,7 +181,7 @@ emit_event "hardening.regression_detected" \
 
 For `passing` findings on `implemented` actions, emit verification event and update status to `verified`:
 ```bash
-emit_event "hardening.action_verified" \
+emit_event "forge.hardening.action_verified" \
   '{
     "action_id": "{action_id}",
     "pmr_id": "{pmr_id}",

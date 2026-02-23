@@ -139,7 +139,7 @@ If severity is CRITICAL or HIGH, include a recommendation to invoke `/bug` with 
 Emit event:
 ```bash
 source .claude/scripts/lib/event-bus.sh
-emit_event "hardening.triage_completed" \
+emit_event "forge.hardening.triage_completed" \
   '{
     "signal_source": "{source}",
     "severity": "{severity}",
