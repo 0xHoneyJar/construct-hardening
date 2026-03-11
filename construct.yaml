@@ -3,11 +3,11 @@ name: Hardening
 slug: hardening
 version: 0.1.0
 description: >-
-domain:
-  - security
   Transforms incidents into compounding defensive artifacts — postmortems,
   blast radius maps, hardening actions, and regression checks that prevent
   the same failure from recurring.
+domain:
+  - security
 author: 0xHoneyJar
 license: MIT
 skills:
