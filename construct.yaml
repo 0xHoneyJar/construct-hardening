@@ -94,6 +94,13 @@ events:
       delivery: at_least_once
       idempotency:
         key_fields: [gap_id, issue_url]
+composition_paths:
+  reads:
+    - "grimoires/laboratory/"
+  writes:
+    - "grimoires/hardening/"
+compose_with:
+  - observer
 pack_dependencies:
   - slug: observer
 identity:
