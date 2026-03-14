@@ -2,11 +2,7 @@ schema_version: 3
 name: Hardening
 slug: hardening
 version: 0.2.0
-description: >-
-  Full-stack security for web apps, APIs, and dApps. Pre-share audits (auth
-  flows, data privacy, env secrets, API surfaces) and post-incident defense
-  (postmortems, blast radius, regression checks). Multi-scanner methodology
-  inspired by 21-scan convergence patterns.
+description: The one that finds the holes before someone else does. Full-stack security across auth flows, data privacy, env secrets, and API surfaces. Pre-share audits prevent the breach. Post-incident defense contains the blast. 21-scan convergence — nothing slips through.
 short_description: "Full-stack security construct"
 domain:
   - security
