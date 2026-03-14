@@ -1,12 +1,13 @@
 schema_version: 3
 name: Hardening
 slug: hardening
-version: 0.1.0
+version: 0.2.0
 description: >-
-  Transforms incidents into compounding defensive artifacts — postmortems,
-  blast radius maps, hardening actions, and regression checks that prevent
-  the same failure from recurring.
-short_description: "Defensive artifact forge"
+  Full-stack security for web apps, APIs, and dApps. Pre-share audits (auth
+  flows, data privacy, env secrets, API surfaces) and post-incident defense
+  (postmortems, blast radius, regression checks). Multi-scanner methodology
+  inspired by 21-scan convergence patterns.
+short_description: "Full-stack security construct"
 domain:
   - security
 author: 0xHoneyJar
@@ -27,6 +28,15 @@ skills:
     path: skills/regression-check
   - slug: signal-audit
     path: skills/signal-audit
+  # Pre-share security audits
+  - slug: audit-api
+    path: skills/audit-api
+  - slug: audit-data-privacy
+    path: skills/audit-data-privacy
+  - slug: audit-env
+    path: skills/audit-env
+  - slug: audit-auth
+    path: skills/audit-auth
   # Inner processes (SKILL.md only — cognitive primitives)
   - slug: correlating
     path: skills/correlating
